@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "hahahton.Controllers.AuthController",
+    "Method": "CheckAuthorization",
+    "RelativePath": "api/Auth/CheckAuthorization",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "hahahton.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "hahahton.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "hahahton.Controllers.AuthController",
+    "Method": "Registration",
+    "RelativePath": "api/Auth/Registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "hahahton.Dtos.RegistrationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "hahahton.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
