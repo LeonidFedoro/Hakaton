@@ -1,12 +1,14 @@
 ﻿using hahahton.Dtos;
 using hahahton.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace hahahton.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AllowFrontend")] // Применяем CORS к этому контроллеру
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
